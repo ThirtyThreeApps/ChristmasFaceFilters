@@ -20,7 +20,7 @@
                         
                         <MediaFiles>
                             <MediaFile delivery="progressive" type="video/mp4" bitrate="2200" width="720" height="1280">
-                                <![CDATA[https://dvennd.github.io/ad-assets/67reklama.mp4]]>
+                                <![CDATA[https://thirtythreeapps.github.io/ChristmasFaceFilters/christmasad.mp4]]>
                             </MediaFile>
                         </MediaFiles>
                     </Linear>
@@ -30,7 +30,7 @@
                     <CompanionAds>
                         <Companion width="720" height="1280">
                             <StaticResource creativeType="image/jpeg">
-                                <![CDATA[https://dvennd.github.io/ad-assets/endcard.jpg]]>
+                                <![CDATA[https://thirtythreeapps.github.io/ChristmasFaceFilters/endcard.jpg]]>
                             </StaticResource>
                             <CompanionClickThrough>
                                 <![CDATA[amzn://apps/android?asin=B0GBL9SL6Z]]>
@@ -42,6 +42,7 @@
         </InLine>
     </Ad>
 </VAST>
+
 
 
 
