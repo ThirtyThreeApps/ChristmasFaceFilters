@@ -1,0 +1,47 @@
+<VAST version="3.0">
+    <Ad id="christmasad">
+        <InLine>
+            <AdSystem>DirectDeal</AdSystem>
+            <AdTitle>AmazonAppAd</AdTitle>
+            <Impression><![CDATA[https://www.google.com]]></Impression>
+            <Creatives>
+                <Creative>
+                    <Linear skipoffset="00:00:23">
+                        <Duration>00:00:24</Duration>
+                        
+                        <VideoClicks>
+                            <ClickThrough>
+                                <![CDATA[amzn://apps/android?asin=B0GBL9SL6Z]]>
+                            </ClickThrough>
+                            <ClickTracking>
+                                <![CDATA[https://www.amazon.com/gp/mas/dl/android?asin=B0GBL9SL6Z]]>
+                            </ClickTracking>
+                        </VideoClicks>
+                        
+                        <MediaFiles>
+                            <MediaFile delivery="progressive" type="video/mp4" bitrate="2200" width="720" height="1280">
+                                <![CDATA[https://dvennd.github.io/ad-assets/67reklama.mp4]]>
+                            </MediaFile>
+                        </MediaFiles>
+                    </Linear>
+                </Creative>
+                
+                <Creative>
+                    <CompanionAds>
+                        <Companion width="720" height="1280">
+                            <StaticResource creativeType="image/jpeg">
+                                <![CDATA[https://dvennd.github.io/ad-assets/endcard.jpg]]>
+                            </StaticResource>
+                            <CompanionClickThrough>
+                                <![CDATA[amzn://apps/android?asin=B0GBL9SL6Z]]>
+                            </CompanionClickThrough>
+                        </Companion>
+                    </CompanionAds>
+                </Creative>
+            </Creatives>
+        </InLine>
+    </Ad>
+</VAST>
+
+
+
